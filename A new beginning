@@ -1,0 +1,17 @@
+Template <typename K, typename V>
+class HashMap
+{
+    private://=========================
+    
+        class Entry
+        {
+            public:
+            
+                K key;
+                V value;
+                Entry* next
+                
+                Entry (const K& k, const V& v, Entry* e = nullptr)
+                    : key (k), value (v), next (e) {}
+        };
+}
